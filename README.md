@@ -30,6 +30,8 @@ Learn to discover open ports on devices in your local network to understand netw
   Example:
     If your IP is 192.168.1.10 and subnet is 255.255.255.0, your network range is 192.168.1.0/24
 
+  ![image alt](https://github.com/OmmAshutosh/EL_Internship_Task-1/blob/ea62ee04ea5215f4d15ddee95c95e5b5bbcb13cb/2025-06-23%2019_39_41-practice%20kali%20-%20VMware%20Workstation.png)
+
 ✅ Step 3: Run Nmap TCP SYN Scan
 ```bash
   nmap -sS 192.168.1.0/24
@@ -40,6 +42,10 @@ Learn to discover open ports on devices in your local network to understand netw
   ```bash
     nmap -sS 192.168.1.0/24 -oN scan_results.txt
 ```
+![image alt](https://github.com/OmmAshutosh/EL_Internship_Task-1/blob/ea62ee04ea5215f4d15ddee95c95e5b5bbcb13cb/2025-06-23%2019_39_41-practice%20kali%20-%20VMware%20Workstation.png)
+
+![image alt](https://github.com/OmmAshutosh/EL_Internship_Task-1/blob/ea62ee04ea5215f4d15ddee95c95e5b5bbcb13cb/2025-06-23%2019_49_42-practice%20kali%20-%20VMware%20Workstation.png)
+
 ✅ Step 4: Analyze the Output
 Review discovered:
   IP addresses
