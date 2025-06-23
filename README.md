@@ -47,9 +47,10 @@ Review discovered:
   Services (e.g., HTTP, SSH)
 
 ✅ Step 5: Research Common Services
-  Port	Service	Risk
-  21	  FTP	    ⚠️ Insecure (unencrypted)
-  22	  SSH	    ✅ Secure if properly configured
-  23	  Telnet	❌ Deprecated and insecure
-  80	  HTTP	  ⚠️ Unencrypted web service
-  443	  HTTPS	  ✅ Secure web service
+| Port | Service | Description             | Risk Level                |
+| ---- | ------- | ----------------------- | ------------------------- |
+| 21   | FTP     | File Transfer Protocol  | ⚠️ Insecure (unencrypted) |
+| 22   | SSH     | Secure Shell            | ✅ Secure if configured    |
+| 23   | Telnet  | Remote login (obsolete) | ❌ Deprecated, insecure    |
+| 80   | HTTP    | Web (unencrypted)       | ⚠️ Unencrypted traffic    |
+| 443  | HTTPS   | Secure Web (SSL/TLS)    | ✅ Secure                  |
